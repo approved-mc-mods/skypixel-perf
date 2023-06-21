@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "skypixelperf",
+  "version": "${version}",
+
+  "name": "SkyPixel Chat",
+  "description": "This is the Chat component of the mod SkyPixel.",
+  "authors": [
+    "Approved"
+  ],
+  "contact": {
+    "homepage": "https://endorsed.tech/skypixel-perf",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/skypixelperf/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tech.endorsed.skypixelperf.SkyPixelPerf"
+    ]
+  },
+  "mixins": [
+    "skypixelperf.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
